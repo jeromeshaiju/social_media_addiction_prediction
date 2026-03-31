@@ -1,7 +1,7 @@
 from sklearn.tree import DecisionTreeRegressor
 import pandas as pd
 
-scocialmediadata = pd.read_csv('social media addiction\social_media_productivity_6000.csv')
+scocialmediadata = pd.read_csv('social_media_productivity_6000.csv')
 
 
 # 50 is for medium 100 for high and 0 for low
