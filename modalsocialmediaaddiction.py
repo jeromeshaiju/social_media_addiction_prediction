@@ -83,7 +83,7 @@ new_data = pd.DataFrame({
 })
 
 
-
+print("Predicting addiction level...")
 predict=modal.predict(new_data)
 if predict[0]==100:
     print("You have a HIGH addiction level")
@@ -91,4 +91,6 @@ elif predict[0]==50:
     print("You have a MEDIUM addiction level")
 elif predict[0]==0:
     print("You have a LOW addiction level")
+else:
+    print("Unable to determine addiction level.")
 
